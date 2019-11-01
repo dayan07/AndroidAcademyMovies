@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_padding">4dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="desc_size">16sp</dimen>
+    <dimen name="iv_size">100dp</dimen>
+    <dimen name="tv_width">300dp</dimen>
+    <dimen name="tv_height">64dp</dimen>
+</resources>

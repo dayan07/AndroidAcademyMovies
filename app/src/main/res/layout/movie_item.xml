@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListMovies.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        tools:src="@tools:sample/avatars"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="@dimen/item_padding"
+        android:layout_width="@dimen/iv_size"
+        android:layout_height="@dimen/iv_size"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textSize="@dimen/title_size"
+        android:lines="1"
+        android:padding="@dimen/item_padding"
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/full_names"
+        app:layout_constraintLeft_toRightOf="@+id/ivPoster"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:textSize="@dimen/desc_size"
+        android:padding="@dimen/item_padding"
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="@dimen/tv_height"
+        tools:text="@tools:sample/full_names"
+        app:layout_constraintLeft_toRightOf="@+id/ivPoster"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

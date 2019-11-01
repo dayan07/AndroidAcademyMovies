@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Academy Movies</string>
+    <string name="desc_main_image">main image</string>
+    <string name="create">Create</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="coroutines_activity"> </string>
+    <string name="movie_trailer">MOVIE TRAILER</string>
+    <string name="released">Released:</string>
+    <string name="overview">Overview:</string>
+    <string name="corout_activity">Coroutines Activity</string>
+    <string name="threads_activity">Threads Handler Activity</string>
+
+</resources>
